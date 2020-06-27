@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hello wasm-pack!</title>
+  </head>
+  <body style="margin: 1em;">
+    <noscript>This page contains webassembly and javascript content, please enable javascript in your browser.</noscript>
+    <script src="./bootstrap.js"></script>
+    <label for="image">Image URL:</label>
+    <form id="url_form">
+      <input type="url" id="image" name="image" value="https://i.imgur.com/eLVc3Rf.png"></input>
+      <input type="submit" hidden />
+    </form>
+    <div style="margin: 1em; display: flex;">
+      <div style="width: 30%">
+        <div id="original_label" style="margin-bottom: 1em;"></div>
+        <img id="original" width="100%" />
+      </div>
+      <div style="width: 30%">
+        <div for="rotated" id="rotated_label" style="margin-bottom: 1em;"></div>
+        <img id="rotated" width="100%"/>
+      </div>
+    </div>
+  </body>
+</html>
