@@ -8,7 +8,7 @@ edition = "2018"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-image = "0.23.6"
+image = "0.23.12"
 js-sys = "0.3"
 rustfft = "4.0.0"
 transpose = "0.2.0"
